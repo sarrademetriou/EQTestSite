@@ -5,10 +5,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Title/>
+        <Title>EQ Test</Title>
       </header>
     </div>
   );
 }
 
 export default App;
+
+

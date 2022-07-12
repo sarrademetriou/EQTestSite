@@ -1,5 +1,5 @@
-export default function Title() {
-    return <> 
-        <h1>EQ Test</h1>
-    </>
-}
+export default function Title({ children }) {
+    return (
+        <h1>{children}</h1>
+    )
+};
